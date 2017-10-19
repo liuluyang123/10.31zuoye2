@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<textarea name="" cols="30" rows="10" id="txt" oninput="on()">
+</textarea>
+<input type="button" value="提交" id="btn">
+
+<script>
+
+        var Txt=document.getElementById('txt');
+        var Btn=document.getElementById('btn');
+        function on() {
+            var sum=60;
+            var a=Txt.value.length;
+            if(a>=sum){
+                Btn.setAttribute('disabled','disabled')
+//                Txt.setAttribute('disabled','disabled')
+
+            }else{
+                Btn.removeAttribute('disabled','disabled')
+            }
+        }
+
+
+
+</script>
+
+
+</body>
+</html>
