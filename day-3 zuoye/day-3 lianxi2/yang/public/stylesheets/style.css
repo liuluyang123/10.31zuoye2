@@ -1,0 +1,165 @@
+/* CSS Document */
+*{
+  margin:0px;
+  padding:0px;}
+.wrapper{
+  height:600px;
+  width:826px;
+  margin:0 auto;
+  float: left;
+  margin-left:250px;}
+.top{
+  width:824px;
+  height:50px;
+  float: right;}
+.blue{
+  width:68px;
+  height:24px;
+  background-color:#00F;
+  font-weight:bold;
+  line-height:24px;
+  float:right;
+  margin-top:5px;
+  text-align: center;}
+.blue span{
+  font-size:12px;
+  color: #FFF;}
+.blue ul li a:link{
+  color: #FFF;}
+.blue ul li a:hover{
+  color: #FFF;}
+.top {
+  width:822px;
+  height:50px;
+  float: right;
+  margin:0 auto;}
+.top1{
+  width:320px;
+  height:50px;
+  float: left;
+  margin-left:420px;}
+.span{
+  font-size:12px;
+  font-weight:normal;}
+.top ul li {
+  line-height:36px;
+  text-align: center;
+  list-style:none;
+  margin-left:10px;
+  font-weight:bold;
+  float:left;
+  font-size:12px;}
+.top ul li a:link{
+  color:#000;}
+.top ul li a:visited{
+  color:#000;}
+.logo{
+  width:416px;
+  height:90px;
+  margin:0 auto;
+  margin-top:60px;
+  padding-left:150px;
+}
+.logo img{
+  width: 217px;
+  height: 70px;
+}
+.sesh{
+  width:666px;
+  height:30px;
+  margin:0 auto;
+  margin-top:30px;
+  /*border:2px #3385ff solid; */
+}
+.sesh2{
+  width:520px;
+  height:30px;
+  float:left;
+  text-align: right ;
+  margin:0 auto;}
+.sesh2 img{
+  margin-top:5px;}
+.sesh1{
+  width:146px;
+  height:34px;
+  float:left;
+  background-color:#3385ff;
+  line-height:30px;
+  text-align:center;
+  text-decoration:none;}
+.sesh1 span{
+  color: #FFF;
+  text-decoration:none;}
+
+.footer{
+  width:726px;
+  height:60px;
+  margin:0 auto;
+  margin-left:80px;
+  margin-top:220px;}
+.weima img{
+  padding-top:10px;
+  padding-left:5px;
+  float:left;}
+.weima2 img{
+  padding-top:10px;
+  padding-left:5px;
+  float:left;}
+.weima span{
+
+  text-decoration:underline;
+  color:#CCC;}
+.weima2 span{
+
+  text-decoration:underline;
+  color:#CCC;}
+.weima{
+  width:150px;
+  height:60px;
+  float:left;}
+.weima ul{
+  line-height:30px;
+  list-style:none;
+  font-size:13px;
+  font-weight:bold;
+  float: left;
+  background-image:url(../images/img.png);
+  background-repeat: no-repeat;
+  list-style:none;
+  text-align:right;
+  text-indent:70px;}
+.weima2{
+  width:150px;
+  height:60px;
+  float:left;}
+.weima2 ul{
+  line-height:30px;
+  text-align:center;
+  list-style:none;
+  float:left;
+  background-image:url(../images/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png);
+  background-repeat:no-repeat;
+  text-indent:70px;
+  font-weight:bold;
+  font-size:13px;}
+.wenzi{
+  width:406px;
+  height:60px;
+  float:left;
+  color: #CCC;
+  font-size:12px;}
+.wenzi a{
+  color:#CCC;
+  margin-left:20px;
+  text-decoration:none;}
+.wenzi>div:nth-child(2) img {
+  margin-left: -8px;
+}
+.clear{
+  clear: both;
+}
+.ss{
+  width:520px;
+  height:30px;
+  border:2px #3385ff solid;
+}
