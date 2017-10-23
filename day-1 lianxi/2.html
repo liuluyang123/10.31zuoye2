@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #btn{
+                         width: 60px;
+                         height:30px;
+                         text-align: center;
+                         line-height: 20px;
+                         position: absolute;
+
+                     }
+            #xx{
+                         width: 60px;
+                         height:30px;
+                         text-align: center;
+                         line-height: 20px;
+                         position: absolute;
+
+                     }
+            .btn{
+                         position: relative;
+                     }
+            #text{
+                         height: 20px;
+                     }
+
+        </style>
+    </head>
+<body>
+<textarea name="" id="app" cols="30" rows="10"></textarea>
+<p id="text"></p>
+<button id="btn">提交</button>
+
+</body>
+</html>
+<script>
+        app.onkeyup=function () {
+                    var p=app.value.length;
+                    console.log(p)
+                    text.innerHTML='你还可以输入'+(60-p)+'字'
+                        if (p<60){
+                            btn.onclick=function () {
+                                        alert('提交吧')
+                                    }
+                            }else {
+                            btn.disabled='false'
+                            }
+
+                    }
+
+
+
+
+
+
+
+                                </script>
