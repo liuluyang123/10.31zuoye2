@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/li.css"/>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <script>
+
+        $(function(){
+            $.ajax({
+                url:"http://localhost:3000/item/list",
+                type:"get",
+                success:function(e){
+                    for(var i in e){
+//                        $("#ul").append('<li><a href="">'+e[i].name+'</a ></li>')
+                        $("#ul").append('<li><a href="detail.html?id='+e[i].id+'">'+e[i].name+'</a></li>')
+
+                    }
+                }
+            })
+        })
+
+
+    </script>
+</head>
+<body>
+<div class="mid">
+
+<div class="header">
+
+<div class="top">
+
+<div class="logo">
+<img src="img/logo.png" alt=""/>
+</div>
+
+<div id="nav" class="nav">
+<ul>
+<li><a href="">首页</a></li>
+<li><a href="">走进瑞森</a></li>
+<li><a href="detail.html?id=list">新闻动态</a></li>
+<li><a href="">项目管理</a></li>
+<li><a href="">创新科技</a></li>
+<li><a href="">企业文化</a></li>
+<li><a href="">加入我们</a></li>
+</ul>
+</div>
+
+<div class="clear"></div>
+</div>
+
+</div>
+<div class="banner">
+<img src="img/bbanner.png" alt=""/>
+</div>
+
+
+
+</div>
+<div class="dibu">
+<div class="dibu1">
+<ul id="ul">
+    <!--<li><a href="">111</a></li>-->
+    <!--<li><a href="">222</a></li>-->
+    <!--<li><a href="">333</a></li>-->
+</ul>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
